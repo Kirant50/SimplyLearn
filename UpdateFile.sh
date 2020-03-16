@@ -1,4 +1,4 @@
-echo "Initiate file update";
+echo 'Initiate file update'
 sed  '$aimportType=DATABASE \
 commitFrequency=0 \
 Url=jdbc:postgresql://10.23.66.18:5432/pgsqldb?autosave=always \
