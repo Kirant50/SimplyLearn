@@ -1,4 +1,4 @@
-echo "Initiate file update"
+echo "Initiate file update";
 sed  '$aimportType=DATABASE \
 commitFrequency=0 \
 Url=jdbc:postgresql://10.23.66.18:5432/pgsqldb?autosave=always \
@@ -9,4 +9,4 @@ URLSourceDB=jdbc:h2:tcp://localhost/TAFJDB;MODE=Oracle;TRACE_LEVEL_FILE=0;TRACE_
 DriverSourceDB=org.h2.Driver \
 UserSourceDB=t24 \
 PasswordSourceDB=t24 \
-Layout=TEXT' C:\Users\sundareshan\.jenkins\workspace\TestFileUpdateUsingSED\test.default
+Layout=TEXT' test.default
