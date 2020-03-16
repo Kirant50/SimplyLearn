@@ -1,1 +1,1 @@
-echo test=1 > test.default
+echo test=1 >> test.default
