@@ -1,3 +1,4 @@
+#!/bin/bash
 echo 'Initiate file update'
 dos2unix testdefault
 export folderpath=$(pwd)/testdefault
