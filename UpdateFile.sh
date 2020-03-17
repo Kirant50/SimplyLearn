@@ -1,2 +1,4 @@
 echo 'Initiate file update'
-sed '$aimportType=DATABASE' testdefault
+folderpath=$(pwd)
+echo "Path : $folderpath/testdefault"
+sed '$aimportType=DATABASE' $folderpath/testdefault
